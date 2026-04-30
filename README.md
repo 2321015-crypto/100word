@@ -1,19 +1,16 @@
-# 📚 동의어 / 반의어 퀴즈 웹앱
+# 📘 동의어 / 반의어 퀴즈 웹앱 (Streamlit)
 
-## 🚀 기능
-- CSV 업로드
-- 단어 입력 시 퀴즈 검색
-- 동의어 / 반의어 문제 출력
-
-## 📂 구조
-word-explainer-app/
-├─ app.py
-├─ requirements.txt
-└─ README.md
-
-## ▶ 실행 방법
+## 실행 방법
 
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
 ```
+
+## 기능
+- CSV 파일 업로드 또는 URL 로드
+- 단어 검색 기반 퀴즈 출력
+- 동의어/반의어 데이터 탐색
+
+## CSV 형식 예시
+| word | synonym | antonym | quiz_type | question | answer |
